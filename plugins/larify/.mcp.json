@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "Larify": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@larify-ai/nest@latest"
+      ]
+    }
+  }
+}

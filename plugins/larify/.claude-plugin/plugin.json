@@ -1,0 +1,17 @@
+{
+  "name": "Larify",
+  "description": "An AI embedded engineer that never stops learning.",
+  "version": "0.0.1",
+  "author": {
+    "name": "InfAGI"
+  },
+  "homepage": "https://github.com/InfAGI/Larify",
+  "repository": "https://github.com/InfAGI/Larify",
+  "license": "Apache-2.0",
+  "keywords": [
+    "embedded",
+    "firmware",
+    "agent",
+    "learn"
+  ]
+}

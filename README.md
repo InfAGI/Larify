@@ -1,11 +1,22 @@
-**English** | [简体中文](README.zh-CN.md)
+**简体中文** | [English](README.en.md)
 
-# OpenEmbly
+# Larify
 
-An open-source, all-in-one AI workbench for embedded development.
+一个持续学习的 AI 嵌入式工程师。
 
-## Community
+## 安装
 
-Scan to join our WeChat group:
+前置：本机已装 [Node.js](https://nodejs.org/)。
 
-<img src="assets/wechat-qr.png" alt="WeChat group QR" width="200">
+在 Claude Code 中依次执行：
+
+```
+/plugin marketplace add InfAGI/Larify
+/plugin install Larify@Larify-marketplace
+```
+
+## 社区
+
+扫码加我，拉你进群：
+
+<img src="assets/wechat-qr.png" alt="微信二维码" width="200">
