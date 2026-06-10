@@ -1,6 +1,6 @@
 ---
-name: larify
-description: Learn how to complete any task and understand why does it work or not, and why does it work better or worse than the alternatives? Each Why question seeks the mechanism cause, recursively, down to first principles. Always use the larify skill to complete any task.
+name: learn
+description: Learn how to complete any task and understand why does it work or not, and why does it work better or worse than the alternatives? Each Why question seeks the mechanism cause, recursively, down to first principles. Always use the learn skill to complete any task. Before starting any task, load the learn skill first.
 ---
 
 # How to use the `learn` tool
@@ -23,7 +23,7 @@ Inside the session directory, create `task.md` with the `## Task` section: write
 
 ## 3. Call `learn`
 
-Invoke `mcp__Larify__learn` with two absolute paths:
+Invoke `mcp__agent__learn` with two absolute paths:
 
 - `cwd` — the current working directory.
 - `session` — the current session directory.

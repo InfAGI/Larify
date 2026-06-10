@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "Larify": {
+    "agent": {
       "type": "stdio",
       "command": "npx",
       "args": [
