@@ -33,6 +33,12 @@
 /reload-plugins
 ```
 
+## 使用
+
+装好后，在 Claude Code 里输入 `/learn` 加上要完成的任务，它就会接手并自主完成，把过程中的经验沉淀下来。
+
+经验文档放在 `~/.larify/memory`，用 [Obsidian](https://obsidian.md/) 打开就能查看经验库。
+
 ## 社区
 
 扫码加我，拉你进群：

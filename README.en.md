@@ -33,6 +33,12 @@ Reload plugins:
 /reload-plugins
 ```
 
+## Usage
+
+Once installed, type `/learn` followed by the task in Claude Code — it takes over and completes the task autonomously, sedimenting the experience along the way.
+
+The experience docs live in `~/.larify/memory`. Open the folder with [Obsidian](https://obsidian.md/) to browse the experience base.
+
 ## Community
 
 Scan to add me on WeChat — I'll invite you to the group:
