@@ -4,15 +4,33 @@
 
 An AI embedded engineer that never stops learning.
 
+## Features
+
+- **End-to-end development** — Give it a goal; it autonomously runs the whole development cycle on real hardware.
+- **Accumulating experience** — It explores and verifies hands-on, sedimenting the experience from every task.
+
 ## Install
 
 Prerequisite: [Node.js](https://nodejs.org/) installed.
 
-In Claude Code, run:
+In Claude Code, run the three commands in order.
+
+Add the marketplace:
 
 ```
 /plugin marketplace add InfAGI/Larify
+```
+
+Install the plugin:
+
+```
 /plugin install Larify@Larify-marketplace
+```
+
+Reload plugins:
+
+```
+/reload-plugins
 ```
 
 ## Community
