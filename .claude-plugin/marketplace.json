@@ -12,7 +12,7 @@
       "name": "larify",
       "source": "./plugins/larify",
       "description": "An AI embedded engineer that never stops learning.",
-      "version": "0.0.2"
+      "version": "0.0.3"
     }
   ]
 }
