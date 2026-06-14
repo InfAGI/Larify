@@ -38,13 +38,13 @@ project-root/
 
 - The structure above is the **fixed skeleton**; everything below it grows freely as a directory tree. Each directory is a **domain**; a directory can nest sub-directories (subdomain → sub-subdomain → sub-sub-subdomain → …) to any depth.
 - A file's name = a **path prefix** (`domain-subdomain-subsubdomain-…`) + a **meaning**. Every directory **must** contain its **bare-prefix file** (prefix only, no meaning) — the one that describes the directory itself. The prefix reflects the **full path** from the root.
-- A project is **self-contained**: all referenced material is copied into the project, never linked by an external path, so the project stays complete when committed or handed off.
+- A project is **self-contained**: external material is digested and reorganized into the project's documents rather than copied in raw, so the project stays complete when committed or handed off. The original file is kept in `06_references/` as the cited source, not as a stand-in for a document's own content.
 
-> **Note:** nest only to keep each directory small and easy to navigate — split a directory when it holds too many children.
+> **Note:** split by **separation of concerns** — one concern per file.
 
 # File convention
 
-Markdown documents are written in Chinese and link to their **upstream** and **downstream** with inline `[[wikilinks]]` for traceability; non-Markdown artifacts are referenced by documents.
+Markdown documents are written in Chinese and link to their **upstream** and **downstream** in a `## 关联` section (`### 上游` / `### 下游` subsections, omit an empty one) for traceability; non-Markdown artifacts are referenced by documents.
 
 Top-down decomposition, bottom-up verification — a V:
 
