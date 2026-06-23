@@ -54,4 +54,4 @@ Top-down decomposition, bottom-up verification — a V:
 | architecture        | ↔   | integration  |
 | hardware / firmware | ↔   | unit         |
 
-The names above are the domains; links use full-path prefixes (e.g. `[[04_testing-unit]]`, not `[[unit]]`).
+The names above are the domains; links are relative-path Markdown links named by the full-path prefix (e.g. `[04_testing-unit](../04_testing/unit/04_testing-unit.md)`, not a bare `unit`).
